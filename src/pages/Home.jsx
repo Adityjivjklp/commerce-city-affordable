@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import ApperIcon from '@/components/ApperIcon';
 import './home.css';
@@ -455,7 +455,7 @@ export default function Home() {
     setScreen('welcome');
   };
 
-  const onSceneReady = ready => setSceneReady(ready);
+  const onSceneReady = useCallback(ready => setSceneReady(ready), []);
 
   return (
     <div className="commerce-experience">
