@@ -79,13 +79,13 @@ export default function Home() {
           <span className="brand-emblem"><span /></span>
           <span>COMMERCE <b>CITY</b></span>
         </Link>
-        <span className="school-chip">ASSET PUBLIC SCHOOL <i /> CLASS XI</span>
+        <span className="school-chip">S N PUBLIC SCHOOL <i /> CLASS XI</span>
       </header>
 
       <section className="home-hero">
         <p className="home-kicker"><span /> BUSINESS STUDIES EXHIBITION</p>
         <h1>WELCOME TO<br /><span>COMMERCE CITY</span></h1>
-        <p className="school-name">ASSET PUBLIC SCHOOL</p>
+        <p className="school-name">S N PUBLIC SCHOOL</p>
         <div className="hero-rule"><span /><i /><span /></div>
         <p className="hero-intro">Understand how insurance helps protect lives, property, journeys and health.</p>
       </section>
@@ -132,7 +132,7 @@ export default function Home() {
 
       <footer className="home-footer">
         <div><strong>COMMERCE CITY</strong><span>CLASS XI · BUSINESS STUDIES</span></div>
-        <span>ASSET PUBLIC SCHOOL</span>
+        <span>S N PUBLIC SCHOOL</span>
       </footer>
     </main>
   );

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
 import './detail.css';
 
@@ -131,6 +132,10 @@ export default function InsuranceDetail() {
   const item = content[type];
   const tone = tones[type];
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [type]);
+
   if (!item || !tone) return <Navigate to="/" replace />;
 
   return (
@@ -169,7 +174,7 @@ export default function InsuranceDetail() {
       </nav>
 
       <footer className="detail-footer">
-        <span>ASSET PUBLIC SCHOOL</span>
+        <span>S N PUBLIC SCHOOL</span>
         <span>CLASS XI · BUSINESS STUDIES</span>
       </footer>
     </main>
