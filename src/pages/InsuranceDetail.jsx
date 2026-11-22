@@ -14,18 +14,16 @@ const content = {
     eyebrow: 'PROTECTING PEOPLE AND FAMILIES',
     definition: 'Life insurance is a contract that provides financial protection to your family, paying out money on death or when policy conditions are met.',
     features: [
-      'Provides financial protection against the risk of death.',
-      'Requires payment of premiums.',
-      'Offers coverage for a specified period or lifetime, depending on the policy.',
-      'Some policies provide maturity benefits.',
-      'Benefits depend on policy terms and conditions.'
+      'Financial Protection: Provides money to the family after the insured person’s death.',
+      'Premium Payment: The policyholder pays a fixed amount regularly.',
+      'Fixed Sum Assured: The company promises to pay an agreed amount.',
+      'Maturity Benefit: Some policies pay money after a fixed period if the person survives.'
     ],
     benefits: [
-      'Provides financial security to family members.',
-      'Helps replace lost income.',
-      'Supports long-term financial planning.',
-      'Some policies offer savings and maturity benefits.',
-      'Provides peace of mind.'
+      'Family Security: Helps protect the family’s financial future.',
+      'Children’s Education: Helps pay for children’s education.',
+      'Future Savings: Helps save money for future needs.',
+      'Financial Stability: Helps the family manage expenses during difficult times.'
     ]
   },
   fire: {
@@ -33,18 +31,16 @@ const content = {
     eyebrow: 'PROTECTING PROPERTY AND BUSINESS',
     definition: 'Fire insurance is a contract that provides financial compensation for covered losses or damage to property caused by fire.',
     features: [
-      'Covers insured property against specified fire-related risks.',
-      'Requires payment of premiums.',
-      'Coverage depends on policy terms and conditions.',
-      'Provides compensation for covered losses.',
-      'Requires assessment of damage before settlement.'
+      'Property Coverage: Covers buildings, shops and other insured property against fire damage.',
+      'Accidental Fire: Covers accidental fires, not intentionally caused fires.',
+      'Policy Period: Usually provides protection for one year.',
+      'Compensation: Pays for covered losses according to policy conditions.'
     ],
     benefits: [
-      'Protects businesses and property financially.',
-      'Helps recover from unexpected fire losses.',
-      'Reduces financial uncertainty.',
-      'Supports business recovery.',
-      'Provides peace of mind to property owners.'
+      'Financial Protection: Reduces financial losses caused by fire.',
+      'Business Recovery: Helps business owners recover after a fire.',
+      'Property Security: Protects the financial value of property.',
+      'Peace of Mind: Reduces worries about unexpected fire losses.'
     ]
   },
   marine: {
@@ -52,18 +48,16 @@ const content = {
     eyebrow: 'PROTECTING GOODS IN TRANSIT',
     definition: 'Marine insurance provides financial protection against covered losses or damage to ships, cargo and goods during transportation by sea.',
     features: [
-      'Covers ships and vessels under applicable policies.',
-      'Provides protection for goods during marine transportation.',
-      'Covers specified risks during transit.',
-      'Requires payment of premiums.',
-      'Compensation depends on policy conditions.'
+      'Cargo Insurance: Covers goods transported by sea.',
+      'Hull Insurance: Covers ships and their equipment.',
+      'Freight Insurance: Protects against covered loss of freight charges.',
+      'Sea Risks: Covers risks such as storms, collisions and sinking, as specified in the policy.'
     ],
     benefits: [
-      'Reduces financial risks during transportation.',
-      'Protects valuable cargo.',
-      'Supports international trade.',
-      'Helps businesses manage transportation losses.',
-      'Provides financial security to traders and shipping businesses.'
+      'Goods Protection: Protects businesses against covered loss of goods.',
+      'Ship Protection: Provides financial support for covered damage to ships.',
+      'Business Security: Reduces financial risks during sea transportation.',
+      'Financial Support: Helps businesses recover from covered transport losses.'
     ]
   },
   health: {
@@ -71,18 +65,16 @@ const content = {
     eyebrow: 'PROTECTING HEALTH AND WELLBEING',
     definition: 'Health insurance is a contract that helps cover eligible medical and hospital expenses in exchange for regular premium payments.',
     features: [
-      'Provides coverage for eligible medical expenses.',
-      'Offers cashless treatment at network hospitals where available.',
-      'May cover hospitalisation expenses.',
-      'Different policies offer different coverage limits.',
-      'Coverage depends on policy terms, exclusions and waiting periods.'
+      'Hospital Expenses: Covers eligible hospital expenses.',
+      'Medical Treatment: Helps pay for covered surgeries and treatments.',
+      'Family Coverage: Some policies cover the entire family.',
+      'Cashless Treatment: Allows treatment at network hospitals without paying the covered amount upfront.'
     ],
     benefits: [
-      'Reduces the financial burden of medical treatment.',
-      'Provides access to eligible healthcare services.',
-      'Helps protect personal savings.',
-      'Offers financial support during medical emergencies.',
-      'Provides peace of mind.'
+      'Financial Protection: Reduces the burden of expensive medical bills.',
+      'Emergency Support: Provides financial help during medical emergencies.',
+      'Savings Protection: Helps protect personal savings.',
+      'Better Treatment: Helps people afford necessary medical treatment.'
     ]
   }
 };
